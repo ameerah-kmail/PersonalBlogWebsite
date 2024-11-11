@@ -1,0 +1,40 @@
+/* CSS for text styling */
+/* Typography and text-specific styles */
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+ul{
+    padding: 0px ;
+}
+.navbar-links a {
+    text-decoration: none; 
+    color: black;
+    font-size: 18px;
+}
+input{
+    width: 50%;
+    height: 10%;
+    color: white;
+    background-color:thistle ;
+    border: none;
+    outline-width:0px;
+    border-radius: 50px;
+    padding: 16px;
+}
+input::placeholder {
+    color: white; 
+    opacity: 2; 
+}

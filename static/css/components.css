@@ -1,0 +1,65 @@
+/* CSS for individual components */
+/* Styles for reusable components like buttons and cards */
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid thistle;
+}
+
+.read-more {
+    background-color: white;
+    color: black;
+    display: flex;   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border:2px solid white;
+    border-radius: 30px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content{
+    padding: 1rem;
+    flex: 1; 
+}
+
+.card img{
+    width: 250px;
+    height: 150px;
+    border:2px solid white;
+    border-radius: 30px;
+}
+
+.author-img img{
+    width: 300px;
+    height: 300px;
+    border:2px solid white;
+    border-radius: 30px;
+}
+
+.blog-post-card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    height: 80%;
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 2rem;
+    list-style-type: none;
+    list-style: none;
+}
+
+.author-info{
+    width: 60%;
+}
+  
+

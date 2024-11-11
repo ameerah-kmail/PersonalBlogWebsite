@@ -1,0 +1,12 @@
+/* Main CSS file */
+@import url('components.css');
+@import url('layout.css');
+@import url('typography.css');
+
+/* Main styles for overall site elements */
+body {
+    font-family: Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color:thistle;
+}
