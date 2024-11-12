@@ -13,7 +13,6 @@ button {
     color: black;
     display: flex;   
 }
-
 .card {
     display: flex;
     flex-direction: column;
@@ -25,40 +24,36 @@ button {
     justify-content: space-between;
     width: 17.1%;
 }
-
 .card-content{
     padding: 1rem ;
     flex: 1; 
 }
-
 .card img{
     width: 15vw; 
     height: 8vw; 
     border:2px solid white;
     border-radius: 30px;
 }
-
 .author-img img{
     width: 20vw;
     height: 20vw;
     border:2px solid white;
     border-radius: 30px;
 }
-
 .blog-post-card{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    column-gap: 10px;
-    /* height: 100%; */
-    width: 90vw;
-    /* background-color: red; */
+    gap: 1rem;
+    /* width: 100%; */
 }
-
 .navbar-links {
     display: flex;
     column-gap: 2rem;
     list-style-type: none;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
  
 
