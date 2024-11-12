@@ -50,7 +50,7 @@ button {
     flex-direction: row;
     column-gap: 10px;
     /* height: 100%; */
-    width: 100%;
+    width: 90vw;
     /* background-color: red; */
 }
 
