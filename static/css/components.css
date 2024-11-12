@@ -23,23 +23,24 @@ button {
     background-color: white;
     align-items: center;
     justify-content: space-between;
+    width: 17.1%;
 }
 
 .card-content{
-    padding: 1rem;
+    padding: 1rem ;
     flex: 1; 
 }
 
 .card img{
-    width: 250px;
-    height: 150px;
+    width: 15vw; 
+    height: 8vw; 
     border:2px solid white;
     border-radius: 30px;
 }
 
 .author-img img{
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     border:2px solid white;
     border-radius: 30px;
 }
@@ -48,7 +49,9 @@ button {
     display: flex;
     flex-direction: row;
     column-gap: 10px;
-    height: 80%;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: red; */
 }
 
 .navbar-links {
@@ -57,9 +60,5 @@ button {
     list-style-type: none;
     list-style: none;
 }
-
-.author-info{
-    width: 60%;
-}
-  
+ 
 

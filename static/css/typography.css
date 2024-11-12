@@ -38,3 +38,11 @@ input::placeholder {
     color: white; 
     opacity: 2; 
 }
+figcaption {
+    background-color: black;
+    color: thistle;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+  }
